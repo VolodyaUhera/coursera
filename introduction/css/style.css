@@ -1,0 +1,33 @@
+h1 {                /*This is elemnt css*/
+    color: purple;
+}
+
+#header1 {          /*This is id css*/
+    color: green;
+}
+
+.navigation {      /*This is class css*/
+    margin: 1px;
+    color: red;
+    /*background-color: blue;*/
+}
+
+p.introduction {
+    color: blueviolet;
+}
+
+#blog h1 {          /*Select all h1 in id blog*/
+    color: blue;
+}
+
+#blog div h1 {    /*Select all h1 in div with id blog*/
+  color: yellow;
+}
+
+#blog > h1 {      /*Select first child h1 in blog*/
+  color: green;
+}
+
+p:hover {         /*Change color hen your mouse over it Pseudo-Class :hover*/
+    color: orange;
+}
