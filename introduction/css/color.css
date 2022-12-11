@@ -1,0 +1,30 @@
+#group1 { 
+    color: rgba(255, 0, 0, 128); 
+}
+
+#group2 {
+    color: rgb(255, 0,0);
+}
+
+#group3{
+    /*
+    HSL is a newer color model defined as Hue (H), Saturation (S) and Lightness (L). 
+    The aim of the model is to simplify mental 
+    visualization of the color that the value represents.
+
+    Think of a rainbow that has been turned into a full circle. This represents the Hue. 
+    The Hue value is the degree value on this circle, 
+    from 0 degrees to 360 degrees. 0 is red, 120 is green and 240 is blue.
+
+    hue         відтінок     
+    saturation  насиченість
+    lightnes    яскравість
+    */
+    color: hsl(0, 100%, 50%); 
+}
+
+#group4 {
+    /*
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+    */
+}
