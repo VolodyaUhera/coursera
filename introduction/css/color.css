@@ -26,5 +26,14 @@
 #group4 {
     /*
     0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+    HEX FALUE 
     */
+}
+
+#group5 {
+    color: red;
+    text-decoration: underline red solid 5px;
+    text-transform: uppercase;
+    font-family: "Courier New", monospace;
+    font-size: 12px;
 }
