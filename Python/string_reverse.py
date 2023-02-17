@@ -1,8 +1,8 @@
 # str[statr:stop:step]
 
-trial = "reversal"
-new_trial = trial[::-1]
-print(new_trial)
+# trial = "reversal"[::-1]
+
+# print(trial)
 
 def string_reverse(str):
     if len(str) == 0:
@@ -10,6 +10,6 @@ def string_reverse(str):
     else:
         return string_reverse(str[1:]) + str[0]
     
-str = "reversal"
-reverse = string_reverse(str)
+string332 = "123456"
+reverse = string_reverse(string332)
 print(reverse)
