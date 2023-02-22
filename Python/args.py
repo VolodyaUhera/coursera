@@ -4,4 +4,7 @@ def sum_of(*args):
         sum += x
     return sum
 
-print(sum_of(4,5,6))
+
+
+if __name__ == '__main__':
+    sum_of()

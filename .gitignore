@@ -3,3 +3,7 @@ token_example.txt
 venv/
 
 .vscode/
+
+/.idea/
+
+.gitignore
